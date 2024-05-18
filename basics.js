@@ -80,3 +80,13 @@ if (done === count) {
 //equality 
 // == ("0" == 0 is true)
 // === strict equality - to check if two values are equal and share the same type
+
+
+//.unshift() - method of an array allows you to add a value to the beginning of the array
+const numbers = [1, 2, 3];
+const unshifted = numbers.unshift(5);
+console.log(unshifted);
+console.log(numbers);
+
+//.shift() - removes the first element of the array
+
